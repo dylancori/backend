@@ -75,37 +75,63 @@
 // const {a,...rest} = objetoRest
 // console.log(rest)
 
-const objetos = [
-    {
-        manzanas:3,
-        peras:2,
-        carne:1,
-        jugos:5,
-        dulces:2
-    },
+
+
+// const objetos = [
+//     {
+//         manzanas:3,
+//         peras:2,
+//         carne:1,
+//         jugos:5,
+//         dulces:2
+//     },
     
-{
-        manzanas:1,
-        sandias:1,
-        huevos:6,
-        jugos:1,
-        panes:4
-    }
-]
+// {
+//         manzanas:1,
+//         sandias:1,
+//         huevos:6,
+//         jugos:1,
+//         panes:4
+//     }
+// ]
 
-let newArray = [];
-let total = 0;
+// let newArray = [];
+// let total = 0;
 
-objetos.forEach(objeto=>{
-    const keys = Object.keys(objeto);
-    const values = Object.values(objeto);
+// objetos.forEach(objeto=>{
+//     const keys = Object.keys(objeto);
+//     const values = Object.values(objeto);
 
-    total += values.reduce((valorInicial, valorAcumulado) => valorAcumulado + valorInicial);
-    keys.forEach(key=>{
-        if(!newArray.includes(key)) newArray.push(key);
-    })
-})
+//     total += values.reduce((valorInicial, valorAcumulado) => valorAcumulado + valorInicial);
+//     keys.forEach(key=>{
+//         if(!newArray.includes(key)) newArray.push(key);
+//     })
+// })
 
-console.log(newArray);
-console.log(total);
+// console.log(newArray);
+// console.log(total);
  
+
+
+
+// const cadena1 = `            hola`;
+// console.log(cadena1)
+// console.log(cadena1.length)
+
+// const cadena2 = cadena1.trim();
+// console.log(cadena2)
+// console.log(cadena2.length)
+
+
+// const arregloAnidado = [1,2,3,4,5,[6,7,8],[,9,10,11,[12,13,14],[15,16,17]]]
+// const arregloProcesado = arregloAnidado.flat(2);
+// console.log(arregloProcesado)
+
+
+const variablePrueba = 0;
+const variableAsignable = variablePrueba|| "sin valor"
+const nullish = variablePrueba ?? "sin valor"
+
+console.log(variableAsignable)
+console.log(nullish)
+

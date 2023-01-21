@@ -46,9 +46,11 @@ getProductsById = (id) =>{
 const productManager = new ProductManager()
 console.log(productManager.getProducts());
 productManager.addProducts("doritos","120gr", 500,"imagen no disponible","id1",15)
+productManager.addProducts("rueditas","70gr", 300,"imagen no disponible","id2",15)
 console.log(productManager.products)
 productManager.addProducts("papas","120gr", 500,"imagen no disponible","id1",115)
-productManager.addProducts("palitos","120gr", 600,"imagen no disponible","id2",25)
+productManager.addProducts("palitos","120gr", 600,"imagen no disponible","id3",25)
 console.log(productManager.products)
+console.log(productManager.getProductsById(3))
 console.log(productManager.getProductsById(2))
 console.log(productManager.getProductsById(1))

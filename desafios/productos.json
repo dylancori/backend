@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title":"doritos" ,
+        "description": "120gr",
+        "price": 500,
+        "thumbnail":"imagen no disponible",
+        "code":"id1",
+        "stock":15
+    },
+    {
+        "id":2 ,
+        "title": "rueditas",
+        "description": "80grs",
+        "price": 300,
+        "thumbnail":"imagen no disponible",
+        "code":"id2",
+        "stock":30
+    },
+    {
+        "id": 3,
+        "title": "papas",
+        "description": "40gr",
+        "price": 320,
+        "thumbnail":"imagen no disponible",
+        "code":"id3",
+        "stock":40
+    }
+]
